@@ -5,3 +5,19 @@ function preventRefreshOnSubmit(){
 }
 
 preventRefreshOnSubmit()
+
+function retrieveEmployeeInformation() {
+  return $('input').value
+}
+
+function addNewElementAsLi(){
+
+}
+
+function addNewLiOnClick() {
+
+}
+
+function retrieveEmployeeInformation() {
+
+}
