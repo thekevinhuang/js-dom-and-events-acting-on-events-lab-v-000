@@ -29,4 +29,4 @@ function clearEmployeeListOnLinkClick(e) {
     }
 }
 
-document.querySelector('a').addEventListener('click',clearEmployeeListOnLinkClink())
+document.querySelector('a').addEventListener('click',clearEmployeeListOnLinkClink(e))
