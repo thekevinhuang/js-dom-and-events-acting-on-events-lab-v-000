@@ -13,7 +13,7 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi(){
-  document.querySelector('ul.employee-list').append("<li> ${retrieveEmployeeInformation()} </li>")
+  document.querySelector('ul.employee-list').append(`<li> ${retrieveEmployeeInformation()} </li>`)
 }
 
 function addNewLiOnClick() {
