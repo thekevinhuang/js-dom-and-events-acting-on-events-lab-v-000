@@ -17,12 +17,17 @@ function addNewElementAsLi(){
 }
 
 function addNewLiOnClick() {
-  
+
 }
 
 function clearEmployeeListOnLinkClick() {
-  let employeeList = document.querySelector('ul.employee-list')
-  while(employeeList.firstChild){
-    employeeList.removeChild(employeeList.firstChild)
+  document.querySelector('a').addEventListener('click',function(e) {
+    let employeeList = document.querySelector('ul.employee-list')
+    while(employeeList.firstChild){
+      employeeList.removeChild(employeeList.firstChild)
+    }
   }
+}
+
+
 }
