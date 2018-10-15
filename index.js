@@ -21,12 +21,10 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  document.querySelector('a').addEventListener('click',function(e) {
     let employeeList = document.querySelector('ul.employee-list')
     while(employeeList.firstChild){
       employeeList.removeChild(employeeList.firstChild)
     }
-  }
 }
 
 
