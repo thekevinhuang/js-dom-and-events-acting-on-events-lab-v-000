@@ -7,11 +7,11 @@ function preventRefreshOnSubmit(){
 preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation() {
-  return $('input').value
+  return document.querySelector('input').value
 }
 
 function addNewElementAsLi(){
-  $('ul.employee-list').append(`<li> ${retrieveEmployeeInformation()} </li>`)
+  document.querySelector('ul.employee-list').append(`<li> ${retrieveEmployeeInformation()} </li>`)
 }
 
 function addNewLiOnClick() {
